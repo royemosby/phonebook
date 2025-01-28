@@ -1,0 +1,22 @@
+.table {
+  border: 1px solid var(--dark-blue);
+  border-collapse: collapse;
+  padding: .5rem;
+  width: 1100px;
+}
+
+.thead {
+  border-bottom: 4px solid var(--dark-blue)
+}
+
+.tr {
+  border: 1px solid var(--medium-blue);
+}
+
+.td {
+  padding: .25rem;
+}
+
+.tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, .5);
+}
